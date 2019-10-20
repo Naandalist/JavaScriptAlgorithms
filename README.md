@@ -1,7 +1,7 @@
 
 <h1 align="center"> JavaScript Algorithms and Data Structures</h1>
 <p align="center">
-<img src="https://raw.githubusercontent.com/Naandalist/JavaScriptAlgorithms/master/asset/img.jpg?token=ADSELVZ4LQJCCPT4YOEFU5S5VTVZI" width="800"></p>
+<img src="https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/asset/img.jpg" width="800"></p>
 
 ###
 This repository contains JavaScript based training of Arkademy algorithms and data structures.
