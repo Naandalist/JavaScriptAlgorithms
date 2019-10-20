@@ -13,11 +13,9 @@ jika minimarket tersebut sedang mengadakan promosi
 
 // OUTPUT : menampilkan di layar/console banyaknya mie instan yang didapat oleh anak tersebut
 
-
-
 let moneyFromMom = 50000;
 let priceOfNoodles = 2500;
 
-const hisNoodles = (a, b) => a/b;
+const hisNoodles = (a, b) => (a/b)+((a/b)/4)
 
-console.log(hisNoodles(moneyFromMom, priceOfNoodles)); //20
+console.log(hisNoodles(moneyFromMom, priceOfNoodles)); //20+5
