@@ -22,5 +22,9 @@ the data.
 
 * **Task 1**
   * `B` [Manipulate Array of Object](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task1/ManipulateArrOfObject.js) - Indonesian natioal heroes
-  * `B` [Fisher–Yates Shuffle](src/algorithms/sets/fisher-yates) - random permutation of a finite sequence
+
+* **Task 2**
+    * `B` [Simple Math](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task2/1BeginnerSimpleMath.js) - child helps his mother buy noodles
+    * `B` [Segitiga Siku-siku](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task2/2BeginnerSegitigaSikuSiku.js) - half pyramid of prime numbers
+
 
