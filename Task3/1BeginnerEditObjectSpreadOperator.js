@@ -1,7 +1,7 @@
 //Beginner
 //
 
-/* CASE: 
+/* CASE:
 Sebuah daftar tentu dapat mengalami perubahan, namun belum tentu semua datanya berubah.
 Disediakan array of object sebagai berikut:
 
