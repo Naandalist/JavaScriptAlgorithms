@@ -1,5 +1,7 @@
 
-# JavaScript Algorithms and Data Structures
+<h1 align="center">JavaScript Algorithms and Data Structures</h1>
+<p align="center">
+<img src="https://raw.githubusercontent.com/Naandalist/JavaScriptAlgorithms/master/asset/img.jpg?token=ADSELVZ4LQJCCPT4YOEFU5S5VTVZI" width="800"></p>
 
 [![Build Status](https://travis-ci.org/trekhleb/javascript-algorithms.svg?branch=master)](#)
 [![code js](https://codecov.io/gh/trekhleb/javascript-algorithms/branch/master/graph/badge.svg)](#)
