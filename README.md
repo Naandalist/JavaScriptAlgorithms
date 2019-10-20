@@ -1,11 +1,11 @@
 
 <h1 align="center">JavaScript Algorithms and Data Structures</h1>
 <p align="center">
-<img src="https://raw.githubusercontent.com/Naandalist/JavaScriptAlgorithms/master/asset/img.jpg?token=ADSELVZ4LQJCCPT4YOEFU5S5VTVZI" width="800"></p>
+<img src="https://raw.githubusercontent.com/Naandalist/JavaScriptAlgorithms/master/asset/img.jpg?token=ADSELVZ4LQJCCPT4YOEFU5S5VTVZI" width="800">
 
 This repository contains JavaScript based training of Arkademy algorithms and data structures.
 
-☝ Note that this project is meant to be used for learning and researching purposes only and it is not meant to be used for production.
+☝ Note that this project is meant to be used for learning and researching purposes only and it is not meant to be used for production. </p>
 
 ## What is Algorithms?
 
