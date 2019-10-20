@@ -1,5 +1,5 @@
 
-<h1 align="center">JavaScript Algorithms and Data Structures</h1>
+<h1 align="center"> JavaScript Algorithms and Data Structures</h1>
 <p align="center">
 <img src="https://raw.githubusercontent.com/Naandalist/JavaScriptAlgorithms/master/asset/img.jpg?token=ADSELVZ4LQJCCPT4YOEFU5S5VTVZI" width="800"></p>
 
@@ -8,11 +8,11 @@ This repository contains JavaScript based training of Arkademy algorithms and da
 
 ☝ Note that this project is meant to be used for learning and researching purposes only and it is not meant to be used for production.
 
-## What is Algorithms?
+## :crossed_swords: What is Algorithms?
 
 An algorithm is an unambiguous specification of how to solve a class of problems. It is a set of rules that precisely define a sequence of operations.
 
-## What is Data Structures?
+## :crossed_swords: What is Data Structures?
 
 A data structure is a particular way of organizing and storing data in a computer so that it can
 be accessed and modified efficiently. More precisely, a data structure is a collection of data
