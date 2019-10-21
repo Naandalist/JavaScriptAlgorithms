@@ -43,5 +43,5 @@ the data.
 
 
 * :dagger: **Task 3**
-    * `B` [Sum values of array](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/1BeginnerSumNumbers.js) - get total of array values
-    * `I` [Transpose of Array 2D](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/2IntermediateTransposeArr2D.js) - transpose
+    * `A` [Sum Until One Digit](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/1AdvancedOneDigit.js) - leaving one digit after sum
+    * `A` [Transpose of Array 2D](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/2IntermediateTransposeArr2D.js) - transpose
