@@ -2,10 +2,12 @@
 //library application
 
 /*CASE:
-Sebuah perpustakaan menyimpan data buku-bukunya dalam array of object(key title, author, status).
+Sebuah perpustakaan menyimpan data buku-bukunya
+dalam array of object(key title, author, status).
 Buatlah sebuah program yang dapat menampilkan output berdasarkan pilihan:
 
-    a. Menampilkan status sebuah buku jika diberikan parameter judul buku tersebut.
+    a. Menampilkan status sebuah buku jika diberikan parameter
+       judul buku tersebut.
     b. Menampilkan list buku yang tersedia untuk dipinjam.  */
 
 
@@ -36,7 +38,8 @@ const checkBookStatus= (bookName) => {
         }
       }
 }
-console.log(checkBookStatus('Stranger in a Strange Land'))
+const title= 'Stranger in a Strange Land'
+console.log(checkBookStatus(title))
 
 const availableBookList = (dreamStatus) => {
 
