@@ -15,18 +15,18 @@ const checkBookStatus= (bookName) => {
         {
           title: 'Snow Crash',
           author: 'Neal Stephenson',
-          status: 'available'
+          status: true
 
         },
         {
           title: 'Stranger in a Strange Land',
           author: 'Robert Heinlein',
-          status: 'not available',
+          status: false
         },
         {
           title: 'Cryptonomicon',
           author: 'Neal Stephenson',
-          status: 'available'
+          status: true
         }
       ]
 
@@ -36,7 +36,7 @@ const checkBookStatus= (bookName) => {
         }
       }
 }
-    console.log(checkBookStatus('Stranger in a Strange Land'))
+console.log(checkBookStatus('Stranger in a Strange Land'))
 
 const availableBookList = (dreamStatus) => {
 
@@ -44,17 +44,17 @@ const availableBookList = (dreamStatus) => {
         {
           title: 'Snow Crash',
           author: 'Neal Stephenson',
-          status: 'available'
+          status: true
         },
         {
           title: 'Stranger in a Strange Land',
           author: 'Robert Heinlein',
-          status: 'not available',
+          status: false
         },
         {
           title: 'Cryptonomicon',
           author: 'Neal Stephenson',
-          status: 'available'
+          status: true
         }
       ]
 
@@ -67,4 +67,4 @@ const availableBookList = (dreamStatus) => {
     return availableBook.join(', ')
 
 }
-console.log(availableBookList('available'))
+console.log(availableBookList(true))
