@@ -18,45 +18,76 @@ OUTPUT:
 
     ditemukan 6 kali    */
 
+    // const palindromCount = (str1, str2) =>{
+    //
+    //     let splitStr = str1.split('')
+    //     let arr=[]
+    //     let temp=''
+    //
+    //     while (splitStr.length >0){
+    //
+    //         for (let i=0; i<str2.length; i++){
+    //             temp += splitStr[i]
+    //         }
+    //         if (temp.length === 4){
+    //             arr.push(temp)
+    //         }
+    //         temp=''
+    //         splitStr.shift()
+    //     }
+    //
+    //     splitStr = str1.split('')
+    //     const strReverse = splitStr.reverse()
+    //
+    //     while (strReverse.length > 0){
+    //
+    //         for (let j=0; j< str2.length; j++){
+    //             temp +=strReverse[j]
+    //         }
+    //         if (temp.length === 4){
+    //             arr.push(temp)
+    //         }
+    //         temp=''
+    //         strReverse.shift()
+    //     }
+    //     const result = []
+    //     for (let k=0; k< arr.length; k++){
+    //         if (arr[k] === str2){
+    //             result.push(arr[k])
+    //         }
+    //     }
+    //     return `ditemukan ${result.length} kali`
+    // }
+    // console.log(palindromCount('banananana', 'nana'))
+
+
+
     const palindromCount = (str1, str2) =>{
 
-        let splitStr = str1.split('')
-        let arr=[]
-        let temp=''
-    
-        while (splitStr.length >0){
-    
+        let splitStr = str1.split(''), result=[], temp=''
+
+        const iterate = (str2) => {
+
             for (let i=0; i<str2.length; i++){
                 temp += splitStr[i]
             }
-            if (temp.length === 4){
-                arr.push(temp)
+            if (temp === str2){
+                result.push(temp)
             }
             temp=''
-            splitStr.shift()
+            return splitStr.shift()
         }
 
-        splitStr = str1.split('')
-        const strReverse = splitStr.reverse()
+        while (splitStr.length >0){
+            iterate(str2)
+        }
 
-        while (strReverse.length > 0){
-    
-            for (let j=0; j< str2.length; j++){
-                temp +=strReverse[j]
-            }
-            if (temp.length === 4){
-                arr.push(temp)
-            }
-            temp=''
-            strReverse.shift()
+        splitStr = str1.split('').reverse()
+        while (splitStr.length > 0){
+            iterate(str2)
         }
-        const result = []
-        for (let k=0; k< arr.length; k++){
-            if (arr[k] === str2){
-                result.push(arr[k])
-            }
-        }
-        return `ditemukan ${result.length} kali`
+
+        return `it was found ${result.length} times`
     }
-    
+
     console.log(palindromCount('banananana', 'nana'))
