@@ -10,8 +10,12 @@ berdasarkan array perintah dengan parameter
 berupa array perintah.  */
 
 
-const arr1= ['one', 'two', 'three', 'four', 'five', 'six']
-const arr2= [true, false, true, true, false, false]
+const arr1= ['a', 'b', 'c', 'd', 'e', 'f', 'g',
+    'h', 'i', 'j' ,'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
+    'u', 'v', 'w', 'x', 'y', 'z']
+const arr2= [false, false, false, false, true, false, false, false, false, false,
+    false, false, false, false, true, false, false, false, true, false,
+    false, false, false, false, false, false]
 
 const printIt = (alphabets , dictate )=>{
     const len= dictate.length
