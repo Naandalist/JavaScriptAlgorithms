@@ -22,15 +22,12 @@ OUTPUT :
 2 3 5
 2 3 5 7
 2 3 5 7 11  */
-
 const pyramidPrime = (numb) => {
     if (numb < 0 || numb > 10){
-      console.log('argument is not allowed')
+      console.log('number is not allowed')
     }
     else{
-      let firstNum=0
-      let secondNum = 1
-      let store
+      let firstNum=0, secondNum = 1, store
       const arrPrimes=[]
 
       while (arrPrimes.length< numb) {
