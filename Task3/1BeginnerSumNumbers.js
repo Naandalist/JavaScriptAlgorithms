@@ -15,16 +15,22 @@ Proses Function:
 1 + 5 + 9 = 15
 1 + 5 = 6   */
 
-const sumNumbs = (array) => {
+const sumNumbs = (numbers) => {
 
-    const len= array.length
-    let result=0
-    for (let i=0; i<len; i++){
-        result +=array[i]
+  const reducer = (accumulator, currentValue) => accumulator + currentValue;
+  let numTotal= numbers.reduce(reducer)
+
+  const digitRekursif = (numb) => {
+    if (numb < 10){
+        return numb;
     }
-    return result
+    return numb %10 + digitRekursif(Math.floor(numb/10))
+  }
+  return digitRekursif(numTotal)
+          .toString()
+          .split('')
+          .map(Number)
+          .reduce(reducer)
 }
 
 console.log(sumNumbs([123, 9, 27]))
-console.log(sumNumbs([1, 5, 9]))
-console.log(sumNumbs([1, 5]))
