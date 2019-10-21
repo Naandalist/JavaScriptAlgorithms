@@ -1,11 +1,11 @@
 //Kategori: Beginner
 //Simple Math
 
-/* CASE : 
+/* CASE :
 Seorang anak dimintai tolong oleh ibunya untuk membeli mie instan di minimarket.
 Anak tersebut dibekali oleh ibunya uang sebanyak Rp 50.000,00.
 Di minimarket, mie instan dijual dengan harga Rp 2.500,00.
-Berapakah mie instan yang didapatkan oleh anak tersebut 
+Berapakah mie instan yang didapatkan oleh anak tersebut
 jika minimarket tersebut sedang mengadakan promosi
 
 “setiap pembelian 4 mie instan, akan mendapatkan bonus 1 mie instan”? */
@@ -16,6 +16,6 @@ jika minimarket tersebut sedang mengadakan promosi
 let moneyFromMom = 50000;
 let priceOfNoodles = 2500;
 
-const hisNoodles = (a, b) => (a/b)+((a/b)/4)
+const hisNoodles = (a, b) => (a/b) + ((a/b)/4)
 
 console.log(hisNoodles(moneyFromMom, priceOfNoodles)); //20+5
