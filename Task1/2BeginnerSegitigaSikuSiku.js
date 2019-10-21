@@ -2,8 +2,8 @@
 //Segitiga Siku-siku
 
 
-/* CASE : 
-Segitiga siku-siku adalah segitiga yang salah satu sudutnya 90o atau sudut siku. 
+/* CASE :
+Segitiga siku-siku adalah segitiga yang salah satu sudutnya 90o atau sudut siku.
 Buatlah sebuah program untuk membentuk sebuah segitiga siku-siku.
 
 REQUIREMENT:
@@ -23,47 +23,42 @@ OUTPUT :
 2 3 5 7
 2 3 5 7 11  */
 
-function getPrime(num) {
+const pyramidPrime = (numb) => {
+    if (numb < 0 || numb > 10){
+      console.log('argument is not allowed')
+    }
+    else{
+      let firstNum=0
+      let secondNum = 1
+      let store
+      const arrPrimes=[]
 
-    let prime=[];
-    for(let loop=2;loop<=num+10;loop++) {
-    let store=0
+      while (arrPrimes.length< numb) {
+        store = 0
+        firstNum = 2
+        while (firstNum <= (secondNum / 2)) {
+          if (secondNum %firstNum === 0) {
+            store++
+          }
+        firstNum++
+        }
 
-    //when the loop is below 10 and above 2
-    if(loop<=9 && loop>=2) {
-      for(let i=2;i<=9;i++){
-        if(loop%i===0) {
-          store+=1;
+        if (store === 0 && secondNum !== 1) {
+          arrPrimes.push(secondNum)
         }
+        secondNum++
       }
-      if(store===1) {
-      prime.push(loop);
-      }
-    }
-    
-    //when the loop is above 9
-    if(loop>=10) {
-        for(let j=2;j<=9;j++){
-        if(loop%j===0) {
-          store+=1;
+      //console.log(arrPrimes)
+
+      let tempr=''
+      for(let i=0; i < arrPrimes.length; i++){
+        for(let j=0; j<=i; j++){
+          tempr +=`${arrPrimes[j]} `
         }
-      }
-        if(store===0) {
-        prime.push(loop);
+        console.log(tempr)
+        tempr=''
       }
     }
-    
-   }
-    
-  //create a half pyramyd
-  let result=''
-  for (let k=0; k <= num; k++){
-    for (let l=0; l < k; l++){
-        result +=prime[l]+' '
-    }
-    console.log(result)
-    result=''
-  }
 }
 
-getPrime(5);
+pyramidPrime(5);
