@@ -54,5 +54,6 @@ clue : https://wecodetheweb.com/2016/02/12/immutable-javascript-using-es6-and-be
     company: 'Arkademy',
     city: 'Jogja'
   }]
-
+  console.log(obj)
+  console.log('========================================== separator')
   console.log(cloneObj)
