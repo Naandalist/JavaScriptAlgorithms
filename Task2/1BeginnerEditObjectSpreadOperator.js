@@ -46,16 +46,11 @@ const updateObj = (Obj) => {
 
     let newObj = [...Obj]
 
-    for (let i=0; i<= newObj.length; i++){
-      if (i === 0 && newObj[i].name === 'Tatas'){
-        newObj[i].status= 'menikah'
-        newObj[i].city= 'Jakarta'
-      }
-      else if (i === 1 && newObj[i].name === 'Pratama'){
-        newObj[1].company= 'Arkademy'
-        newObj[1].city= 'Jogja'
-      }
-    }
+    newObj[0].status= 'menikah'
+    newObj[0].city= 'Jakarta'
+    newObj[1].company= 'Arkademy'
+    newObj[1].city= 'Jogja'
+
     console.log(newObj)
 }
 
