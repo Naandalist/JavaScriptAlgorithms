@@ -1,5 +1,5 @@
 //Beginner
-//
+
 
 /* CASE:
 Sebuah daftar tentu dapat mengalami perubahan, namun belum tentu semua datanya berubah.
@@ -25,33 +25,34 @@ Disediakan array of object sebagai berikut:
 Jika Tatas telah menikah dan pindah dari Jogja ke Jakarta,
 serta Pratama direkrut oleh Arkademy menjadi Trainer yang bertempat di Jogja,
 maka ubahlah object diatas menggunakan spread operator.
-*/
-const Obj = [
-    {
-        name: 'Tatas',
-        company: 'Arkademy',
-        job: 'Trainer',
-        status: 'single',
-        city: 'Jogja'
-    },
-    {
-        name: 'Pratama',
-        company: 'Emago',
-        job: 'Trainer',
-        status: 'single',
-        city: 'Jakarta'
-    }
-]
-const updateObj = (Obj) => {
 
-    let newObj = [...Obj]
+clue : https://wecodetheweb.com/2016/02/12/immutable-javascript-using-es6-and-beyond/
+  */
+  const obj = [
+      {
+          name: 'Tatas',
+          company: 'Arkademy',
+          job: 'Trainer',
+          status: 'single',
+          city: 'Jogja'
+      },
+      {
+          name: 'Pratama',
+          company: 'Emago',
+          job: 'Trainer',
+          status: 'single',
+          city: 'Jakarta'
+      }
+  ]
 
-    newObj[0].status= 'menikah'
-    newObj[0].city= 'Jakarta'
-    newObj[1].company= 'Arkademy'
-    newObj[1].city= 'Jogja'
+  const cloneObj= [{
+    ...obj[0],
+    status: 'menikah',
+    city: 'Jakarta'
+  },{
+    ...obj[1],
+    company: 'Arkademy',
+    city: 'Jogja'
+  }]
 
-    console.log(newObj)
-}
-
-updateObj(Obj)
+  console.log(cloneObj)
