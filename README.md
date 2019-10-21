@@ -44,4 +44,4 @@ the data.
 
 * :dagger: **Task 3**
     * `A` [Sum Until One Digit](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/1AdvancedOneDigit.js) - leaving one digit after sum
-    * `A` [Transpose of Array 2D](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/2IntermediateTransposeArr2D.js) - transpose
+    * `A` [Transpose of Array 2D](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/2IntermediateTransposeArr2D.js) - transpose matrix
