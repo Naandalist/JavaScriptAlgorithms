@@ -15,7 +15,7 @@ Pada 1 tahun, musim semi datang terlebih dahulu dibandingkan musim gugur.   */
 
 const imaginativeTree = (x, y) => {
     if (x < 0 || y < 0){
-        return `Numbers below 0 are not allowed`
+        return `Number below 0 are not allowed`
     }
 
     return `${((2 * x) + 1) * y } meter`
