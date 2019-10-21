@@ -22,9 +22,7 @@ const printIt = (alphabets , dictate )=>{
     let result=[]
 
     for (i=0; i<len; i++){
-        if (dictate[i] !== false){
-            result.push(alphabets[i])
-        }
+        if (dictate[i]) result.push(alphabets[i])
     }
     return result
 }
