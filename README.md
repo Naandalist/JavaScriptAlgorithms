@@ -45,3 +45,25 @@ the data.
 * :dagger: **Task 3**
     * `A` [Sum Until One Digit](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/1AdvancedOneDigit.js) - leaving one digit after sum
     * `A` [Transpose of Array 2D](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/2IntermediateTransposeArr2D.js) - transpose matrix
+
+
+
+  ## Author
+
+  👤 **Listiananda Apriliawan**
+
+  - Email: [listiananda.apriliawan@gmail.com](https://gmail.com/)
+  - Github: [Naandalist](https://github.com/naandalist)
+
+  ## Hopefully this can be useful for you
+
+    <a href="https://www.arkademy.com/">
+      <img src="https://www.arkademy.com/img/logo%20arkademy.1c82cf5c.svg" width="130">
+    </a>
+
+  ## 📝 License
+
+  Copyright © 2019 [Naandalist](https://github.com/naandalist).<br />
+  This project is [MIT](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE) licensed.
+
+  ---
