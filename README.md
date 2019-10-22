@@ -65,4 +65,4 @@ the data.
   Copyright © 2019 [Naandalist](https://github.com/naandalist).<br />
   This project is [MIT](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE) licensed.
 
-  ---
+  
