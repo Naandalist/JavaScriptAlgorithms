@@ -13,14 +13,15 @@ Y > 0
 Output berupa tinggi akhir pohon tersebut dengan ketentuan:
 Pada 1 tahun, musim semi datang terlebih dahulu dibandingkan musim gugur.   */
 
-// const imaginativeTree = (x, y) => {
-//     if (x < 0 || y < 0){
-//         return `Number below 0 are not allowed`
-//     }
-//
-//     return `${((2 * x) + 1) * y } meter`
-// }
-// console.log(imaginativeTree(2, 1))
 
-const imaginativeTree = (x, y) => (((x < 0) || (y < 0))? `No result` : ((2 * x) + 1) * y )+ ' meter'
-console.log(imaginativeTree(2, 1))
+  const imaginativeTree = (x, y) => {
+    
+    let store= 0, heightNow=0
+    while (store <=y){
+        heightNow= ((2 * x) + 1)
+        x = heightNow
+        store++
+    }
+    return heightNow
+  }
+  console.log(imaginativeTree(2, 1))
