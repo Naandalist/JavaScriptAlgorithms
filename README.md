@@ -47,8 +47,7 @@ the data.
     * `A` [Transpose of Array 2D](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/2IntermediateTransposeArr2D.js) - transpose matrix
 
 
-
-  ## Author
+  ## :crossed_swords: Author
 
   👤 **Listiananda Apriliawan**
 
