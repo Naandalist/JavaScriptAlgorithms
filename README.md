@@ -2,12 +2,14 @@
 [![Build Status](https://github.com/nodejs/nodejs.org/workflows/Tests/badge.svg)](https://github.com/nodejs/nodejs.org/actions?workflow=Tests)
 [![Dependency Status](https://img.shields.io/david/nodejs/nodejs.org.svg)](https://david-dm.org/nodejs/nodejs.org)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-<h1 align="center"> JavaScript Algorithms and Data Structures</h1>
+<h1> JavaScript Algorithms and Data Structures</h1>
+
+
 
 <p align="center">
 <img src="https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/asset/img.jpg" width="800"></p>
 
-###
+
 This repository contains JavaScript based training of Arkademy algorithms and data structures.
 
 ☝ Note that this project is meant to be used for learning and researching purposes only and it is not meant to be used for production.
