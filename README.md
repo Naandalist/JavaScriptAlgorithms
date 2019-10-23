@@ -7,7 +7,7 @@
 
 
 <p align="center">
-<img src="https://github.com/Naandalist/JavaScriAlgorithms/blob/master/asset/img.jpg" width="800"></p>
+<img src="https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/asset/img.jpg" width="800"></p>
 
 
 This repository contains JavaScript based training of Arkademy algorithms and data structures.
