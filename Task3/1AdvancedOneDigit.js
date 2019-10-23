@@ -20,13 +20,13 @@ Proses Function:
 //   const reducer = (accumulator, currentValue) => accumulator + currentValue;
 //   let numTotal= numbers.reduce(reducer)
 //
-//   const digitRekursif = (numb) => {
+//   const dozensDigit = (numb) => {
 //     if (numb < 10){
 //         return numb;
 //     }
-//     return numb %10 + digitRekursif(Math.floor(numb/10))
+//     return numb %10 + dozensDigit(Math.floor(numb/10))
 //   }
-//   return digitRekursif(numTotal)
+//   return dozensDigit(numTotal)
 //           .toString()
 //           .split('')
 //           .map(Number)
@@ -46,15 +46,15 @@ const sumNumbs = (numbers) => {
     return temp
   }
 
-  const digitRekursif = (numb) => {
+  const dozensDigit = (numb) => {
     if (numb < 10){
         return numb;
     }
-    return numb %10 + digitRekursif(Math.floor(numb/10))
+    return numb %10 + dozensDigit(Math.floor(numb/10))
   }
 
   return sumAll(
-          digitRekursif(sumAll(numbers))
+          dozensDigit(sumAll(numbers))
           .toString()
           .split('')
           .map(Number)
