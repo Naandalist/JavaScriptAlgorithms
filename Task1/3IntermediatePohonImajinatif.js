@@ -15,13 +15,14 @@ Pada 1 tahun, musim semi datang terlebih dahulu dibandingkan musim gugur.   */
 
 
   const imaginativeTree = (x, y) => {
-    
+
     let store= 0, heightNow=0
-    while (store <=y){
+    while (store <y){
         heightNow= ((2 * x) + 1)
         x = heightNow
         store++
+        //console.log(heightNow)
     }
     return heightNow
   }
-  console.log(imaginativeTree(2, 1))
+  console.log(imaginativeTree(2, 2))
