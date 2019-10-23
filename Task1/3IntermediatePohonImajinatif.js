@@ -23,6 +23,6 @@ Pada 1 tahun, musim semi datang terlebih dahulu dibandingkan musim gugur.   */
         store++
         //console.log(heightNow)
     }
-    return heightNow
+    return `🌴 height of tree is ${heightNow} meter`
   }
   console.log(imaginativeTree(2, 2))

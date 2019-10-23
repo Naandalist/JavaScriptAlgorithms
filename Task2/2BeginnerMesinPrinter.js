@@ -24,6 +24,6 @@ const printIt = (alphabets , dictate )=>{
     for (i=0; i<len; i++){
         if (dictate[i]) result.push(alphabets[i])
     }
-    return result
+    return `📂 ${result}`
 }
 console.log(printIt(arr1, arr2))

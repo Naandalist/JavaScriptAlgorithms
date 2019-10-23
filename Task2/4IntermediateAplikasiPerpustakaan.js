@@ -37,6 +37,7 @@ const checkBookStatus= (bookName) => {
           return lib[i].status
         }
       }
+      return `book not found`
 }
 const title= 'Stranger in a Strange Land'
 console.log(checkBookStatus(title))
@@ -45,17 +46,17 @@ const availableBookList = (dreamStatus) => {
 
     const lib= [
         {
-          title: 'Snow Crash',
+          title: '📘Snow Crash',
           author: 'Neal Stephenson',
           status: true
         },
         {
-          title: 'Stranger in a Strange Land',
+          title: '📗Stranger in a Strange Land',
           author: 'Robert Heinlein',
           status: false
         },
         {
-          title: 'Cryptonomicon',
+          title: '📕Cryptonomicon',
           author: 'Neal Stephenson',
           status: true
         }

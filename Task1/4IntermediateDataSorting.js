@@ -12,7 +12,7 @@ Output menampilkan 4 hal :
     -Data yang disortir dari data terkecil ke terbesar
     -Data yang disortir dari data terbesar ke terkecil
 
-INPUT : 
+INPUT :
 
 Array Bilangan = [6,22,34,15,2,13,26,57,42,32]
 
@@ -35,7 +35,7 @@ let bubbleSortAsc = (numbs) => {
         for (let j = 0; j < len; j++) {
 
             if (numbs[j] > numbs[j + 1]) {
-                
+
                 let temp = numbs[j];
                 numbs[j] = numbs[j + 1];
                 numbs[j + 1] = temp;
@@ -44,7 +44,7 @@ let bubbleSortAsc = (numbs) => {
     }
     return numbs;
 };
-console.log(`Ascending Sort: ${bubbleSortAsc(randomNums)}`); //Ascending Sort: 2,6,13,15,22,26,32,34,42,57
+console.log(`📊 Ascending Sort: ${bubbleSortAsc(randomNums)}`); //Ascending Sort: 2,6,13,15,22,26,32,34,42,57
 
 //Discending Sort
 let bubbleSortDesc = (numbs) => {
@@ -55,7 +55,7 @@ let bubbleSortDesc = (numbs) => {
         for (let j = 0; j < len; j++) {
 
             if (numbs[j] < numbs[j + 1]) {
-                
+
                 let temp = numbs[j];
                 numbs[j] = numbs[j + 1];
                 numbs[j + 1] = temp;
@@ -64,10 +64,10 @@ let bubbleSortDesc = (numbs) => {
     }
     return numbs;
 };
-console.log(`Discending Sort: ${bubbleSortDesc(randomNums)}`); //Discending Sort: 57,42,34,32,26,22,15,13,6,2
+console.log(`📊 Discending Sort: ${bubbleSortDesc(randomNums)}`); //Discending Sort: 57,42,34,32,26,22,15,13,6,2
 
 //Smallest Data
-console.log(`Smallest Data: ${bubbleSortAsc(randomNums)[0]}`) //Smallest Data: 2
+console.log(`🔎 Smallest Data: ${bubbleSortAsc(randomNums)[0]}`) //Smallest Data: 2
 
 //Biggest data
-console.log(`Biggest Data: ${bubbleSortAsc(randomNums)[bubbleSortAsc(randomNums).length -1]}`) //Biggest Data: 57
+console.log(`🔎 Biggest Data: ${bubbleSortAsc(randomNums)[bubbleSortAsc(randomNums).length -1]}`) //Biggest Data: 57

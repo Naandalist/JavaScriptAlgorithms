@@ -30,14 +30,14 @@ clue : https://wecodetheweb.com/2016/02/12/immutable-javascript-using-es6-and-be
   */
   const obj = [
       {
-          name: 'Tatas',
+          name: '🤵Tatas',
           company: 'Arkademy',
           job: 'Trainer',
           status: 'single',
           city: 'Jogja'
       },
       {
-          name: 'Pratama',
+          name: '🙍‍Pratama',
           company: 'Emago',
           job: 'Trainer',
           status: 'single',
@@ -54,6 +54,6 @@ clue : https://wecodetheweb.com/2016/02/12/immutable-javascript-using-es6-and-be
     company: 'Arkademy',
     city: 'Jogja'
   }]
-  console.log(obj)
-  console.log('========================================== separator')
-  console.log(cloneObj)
+  console.table(obj)
+  console.log(' ')
+  console.table(cloneObj)
