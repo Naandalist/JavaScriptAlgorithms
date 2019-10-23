@@ -7,7 +7,7 @@
 
 
 <p align="center">
-<img src="https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/asset/img.jpg" width="800"></p>
+<img src="https://github.com/Naandalist/JavaScriAlgorithms/blob/master/asset/img.jpg" width="800"></p>
 
 
 This repository contains JavaScript based training of Arkademy algorithms and data structures.
@@ -51,15 +51,16 @@ the data.
 * :dagger: **Task 3**
     * `A` [Sum Until One Digit](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/1AdvancedOneDigit.js) - leaving one digit after sum
     * `A` [Transpose of Array 2D](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/2AdvancedTransposeArr2D.js) - transpose matrix 2D
-    * `A` [Multiply matrix 2x2](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/3AdvancedMultiplyMatrix2D.js) - Multiply two matrix 
+    * `A` [Multiply matrix 2x2](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/3AdvancedMultiplyMatrix2D.js) - Multiply two matrix
 
 
   ## :crossed_swords: Author
 
   👤 **Listiananda Apriliawan**
 
-  - Email: [listiananda.apriliawan@gmail.com](https://gmail.com/)
+  - Twitter: [@Alistiananda](https://twitter.com/Alistiananda)
   - Github: [Naandalist](https://github.com/naandalist)
+
 
   ## Hopefully this can be useful for you
 
@@ -67,7 +68,7 @@ the data.
       <img src="https://www.arkademy.com/img/logo%20arkademy.1c82cf5c.svg" width="130">
     </a>
 
-  ## 📝 License
+  ### 📝 License
 
   Copyright © 2019 [Naandalist](https://github.com/naandalist).<br />
-  This project is [MIT](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE) licensed.
+  This project is free licensed.
