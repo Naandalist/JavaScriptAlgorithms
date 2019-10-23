@@ -50,7 +50,8 @@ the data.
 
 * :dagger: **Task 3**
     * `A` [Sum Until One Digit](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/1AdvancedOneDigit.js) - leaving one digit after sum
-    * `A` [Transpose of Array 2D](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/2IntermediateTransposeArr2D.js) - transpose matrix
+    * `A` [Transpose of Array 2D](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/2AdvancedTransposeArr2D.js) - transpose matrix 2D
+    * `A` [Multiply matrix 2x2](https://github.com/Naandalist/JavaScriptAlgorithms/blob/master/Task3/3AdvancedMultiplyMatrix2D.js) - Multiply two matrix 
 
 
   ## :crossed_swords: Author
