@@ -23,7 +23,7 @@
     ]
 
     /* Show all item on Array */
-    console.table(heroes)
+    console.log(heroes)
 
     /* Push item to Array */
     let newHero = {
